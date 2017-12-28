@@ -1,0 +1,15 @@
+projectmanage
+CREATE TABLE `usuario` (
+	`id_usuario` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`nombre_usuario` VARCHAR(25) NOT NULL DEFAULT '0',
+	`apellido_usuario` VARCHAR(25) NOT NULL DEFAULT '0',
+	`correo_usuario` VARCHAR(25) NOT NULL DEFAULT '0',
+	`nacimiento_usuario` INT(2) UNSIGNED NOT NULL DEFAULT '0',
+	`usuario_usuario` VARCHAR(25) NOT NULL DEFAULT '0',
+	`contraseña_usuario` VARCHAR(25) NOT NULL DEFAULT '0',
+	PRIMARY KEY (`id_usuario`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=12
+;
